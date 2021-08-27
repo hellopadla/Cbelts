@@ -14,8 +14,8 @@ vector<int> Reversed(const vector<int>& v) {
 
 int main() {
     vector<int> numbers = {1, 5, 3, 4, 2};
-    vector<int> n = Reversed(numbers);
-    for(auto w : n)
+    vector<int> nums = Reversed(numbers);
+    for(auto w : nums)
         cout << w << ' ';
     return 0;
 }
